@@ -52,7 +52,9 @@ void testApp::draw() {
 	
 	simpleCam.begin(); // ofRectangle(ofGetWidth(), ofGetHeight(), 10000, -10000)
 	
-	if(bdrawdebug)ofDrawAxis(100);
+	if(bdrawdebug){
+        ofDrawAxis(100);
+    }
 	
 	ofPushView();
 	
@@ -71,7 +73,9 @@ void testApp::draw() {
 	char reportStr[1024];
 	sprintf(reportStr, "deformable mesh\nKEY 'o' to select ID particles --\nKEY 'p' to select ID particles ++\nKEY 'm' for move particles\nKEY 'f' for apply vector forces to strings\nfps: %f", ofGetFrameRate());
 	
-	if(bdrawdebug)ofDrawBitmapString(reportStr, 20, 600);
+	if(bdrawdebug){
+        ofDrawBitmapString(reportStr, 20, 600);
+    }
 
 }
 
@@ -82,7 +86,7 @@ void testApp::keyPressed(int key) {
 	
 	blackmesh.keypressed(key);
 
-	if(key == 'F'){
+	if(key == 'F' || key == 'f'){
 		ofToggleFullscreen();
 	}
 	if (key == OF_KEY_F4) {
