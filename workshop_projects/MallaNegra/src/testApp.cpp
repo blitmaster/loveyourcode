@@ -32,9 +32,7 @@ void testApp::setup(){
 	
 	ofSetWindowPosition(0,0);
 	ofSetWindowTitle("RTI MESH /// Josep Francesc i Carles Gutierrez");
-	
-	
-	gui.setup();
+
 	
 }
 
@@ -74,9 +72,7 @@ void testApp::draw() {
 	sprintf(reportStr, "deformable mesh\nKEY 'o' to select ID particles --\nKEY 'p' to select ID particles ++\nKEY 'm' for move particles\nKEY 'f' for apply vector forces to strings\nfps: %f", ofGetFrameRate());
 	
 	if(bdrawdebug)ofDrawBitmapString(reportStr, 20, 600);
-	
-	
-	gui.draw();
+
 }
 
 //--------------------------------------------------------------

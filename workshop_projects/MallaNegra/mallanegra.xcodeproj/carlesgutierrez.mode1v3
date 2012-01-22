@@ -279,7 +279,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
+									<integer>17</integer>
 									<integer>3</integer>
 									<integer>0</integer>
 								</array>
@@ -322,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>testApp.cpp</string>
+								<string>testApp.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>testApp.cpp</string>
+										<string>testApp.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5322CBA014CC704F003D6DB5</string>
+										<string>5322CBC914CC728C003D6DB5</string>
 										<key>history</key>
 										<array>
 											<string>53BEC9A5148A72EA00432D3C</string>
@@ -357,8 +357,8 @@
 											<string>537F7D9814BFC5BE00120119</string>
 											<string>537F7E2314BFD53800120119</string>
 											<string>5322CB9D14CC704F003D6DB5</string>
-											<string>5322CB9E14CC704F003D6DB5</string>
-											<string>5322CB9F14CC704F003D6DB5</string>
+											<string>5322CBC714CC728C003D6DB5</string>
+											<string>5322CBC814CC728C003D6DB5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -370,14 +370,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1148, 612}}</string>
+								<string>{{0, 0}, {1148, 609}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 125 1440 753 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>612pt</string>
+							<string>609pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -390,14 +390,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 617}, {1148, 95}}</string>
+								<string>{{0, 614}, {1148, 98}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 125 1440 753 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>95pt</string>
+							<string>98pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -416,9 +416,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5322CBA114CC704F003D6DB5</string>
+				<string>5322CBBA14CC71A5003D6DB5</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>5322CBA214CC704F003D6DB5</string>
+				<string>5322CBBB14CC71A5003D6DB5</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -556,10 +556,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5322CBAB14CC704F003D6DB5</string>
-		<string>5322CBAC14CC704F003D6DB5</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>53BEC80C1489338700432D3C</string>
 		<string>/Users/carlesgutierrez/Develop/OF/of_preRelease_v007_osx/loveyourcode/workshop_projects/MallaNegra/mallanegra.xcodeproj</string>
 	</array>
@@ -580,12 +576,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>testApp.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -641,7 +639,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>53BEC80C1489338700432D3C</string>
-				<string>5322CBA314CC704F003D6DB5</string>
+				<string>5322CBBC14CC71A5003D6DB5</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

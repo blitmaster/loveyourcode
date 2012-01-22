@@ -22,8 +22,7 @@ public:
 	
 	InteractiveMesh blackmesh;
 	
-	
-	ofxSimpleGuiToo gui;
+
 	
 	//Setup Vars
 	int rowsmesh;
@@ -39,6 +38,9 @@ public:
 	int dist2object;
 	bool bkeycam;
 	
+	
+	//GUI
+	ofxSimpleGuiToo gui;
 };
 
 #endif
