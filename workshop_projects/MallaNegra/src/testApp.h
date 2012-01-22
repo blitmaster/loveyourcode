@@ -6,6 +6,7 @@
 #include "InteractiveMesh.h"
 #include "myTrackHand.h"
 
+#include "ofxSimpleGuiToo.h"
 
 class testApp : public ofBaseApp{
 
@@ -20,6 +21,9 @@ public:
 	myTrackHand myhand;
 	
 	InteractiveMesh blackmesh;
+	
+	
+	ofxSimpleGuiToo gui;
 	
 	//Setup Vars
 	int rowsmesh;
